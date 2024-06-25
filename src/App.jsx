@@ -39,7 +39,7 @@ export default function App() {
         throw { message: data.error.message };
       }
 
-      console.log(data);
+      console.log(data.location);
 
       setWeather({
         city: data.location.name,
